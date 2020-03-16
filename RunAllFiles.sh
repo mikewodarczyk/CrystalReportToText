@@ -1,0 +1,1 @@
+find . -type f -name *.rpt -exec bash -xc "./CrystalReportToText/bin/Debug/CrystalReportToText.exe -s '{}' | sort | uniq > '{}.txt'" \;
